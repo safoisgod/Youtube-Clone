@@ -1,0 +1,117 @@
+.div-header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left-section{
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+}
+.youtube-logo{
+    height: 20px;
+}
+
+.hamburger-menu{
+    height:25px;
+    margin-left:25px;
+    margin-right: 25px;
+}
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    flex: 1;
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 183, 183);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 1px 2px 1px rgb(0,0,0,0.05);
+
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 15px;
+}
+.search-button{
+    width: 70px;
+    height: 40px;
+    background-color: rgba(223, 223, 223,0.25);
+    margin-right: 10px;
+    border-width: 1px;
+    border-left-width: 0;
+    border-style: solid;
+    border-color: rgb(194, 183, 183);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.search-icon{
+    height: 25px;
+}
+
+.voice-search-button{
+    border-radius: 50%;
+    height: 40px;
+    border-width:0;
+    background-color: rgba(223, 223, 223,0.25);
+}
+.voice-search-icon{
+    height: 25px;
+}
+
+
+.right-section{
+    display: flex;
+    width: 200px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload-button{
+    height: 25px;
+    background-color: white;
+    border-width: 0;
+}
+
+.upload-icon{
+    height: 100%;
+}
+
+.youtube-apps-button{
+    height: 25px;
+    background-color: white;
+    border-width: 0;
+}
+.youtube-apps-icon{
+    height: 100%;
+}
+
+.notifications-button{
+    height: 25px;
+    background-color: white;
+    border-width: 0;
+}
+.notifications-icon{
+    height: 100%;
+}
+
+.my-channel-button{
+    height: 25px;
+    background-color: white;
+    border-width: 0;
+}
+.my-channel-icon{
+    height: 100%;
+}
