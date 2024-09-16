@@ -6,4 +6,11 @@ p{
 
 body{
     margin: 0;
+    padding-top: 105px;
+    padding-left: 85px;
+}
+
+.div-menu-video-page{
+    display: flex;
+    flex-direction: row;
 }

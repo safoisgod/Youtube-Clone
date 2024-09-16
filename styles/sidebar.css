@@ -1,0 +1,61 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+}
+
+.sidebar-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    justify-content:space-around;
+
+}
+
+.home-button{
+    height: 28px;
+    background-color: white;
+    border-width: 0;
+}
+
+.shorts-button{
+    height: 28px;
+    background-color: white;
+    border-width: 0;
+}
+
+.subscriptions-button{
+    height: 28px;
+    background-color: white;
+    border-width: 0;
+}
+
+.you-button{
+    height: 28px;
+    background-color: white;
+    border-width: 0;
+}
+
+.home-icon{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.shorts-icon{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.subscriptions-icon{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.you-icon{
+    height: 100%;
+    border-radius: 50%;
+}
