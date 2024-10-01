@@ -18,7 +18,7 @@
     row-gap: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 65px;
+    width: 72px;
     justify-content:space-around;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
@@ -31,7 +31,7 @@
 }
 
 .sidebar img{
-    height: 26px;
+    width: 28px;
 }
 
 .sidebar p{
@@ -39,22 +39,7 @@
 }
 
 
-.home-icon{
-    height: 100%;
-    border-radius: 50%;
-}
-
-.shorts-icon{
-    height: 100%;
-    border-radius: 50%;
-}
-
-.subscriptions-icon{
-    height: 100%;
-    border-radius: 50%;
-}
-
-.you-icon{
+.home-icon, .shorts-icon, .subscriptions-icon, .you-icon{
     height: 100%;
     border-radius: 50%;
 }
